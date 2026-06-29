@@ -10,4 +10,6 @@
     max-width: 50%;
     background: url(../Offline/image/offline_left.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
