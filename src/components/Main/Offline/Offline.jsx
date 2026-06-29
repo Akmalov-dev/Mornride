@@ -11,7 +11,7 @@ function Offline() {
                     <h2 className="offline-title">Our offline stores</h2>
             
                 <div className="offline-left">
-      
+                  <p></p>
                 </div>
                  </div>
             </div>
