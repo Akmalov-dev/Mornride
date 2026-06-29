@@ -9,6 +9,8 @@
 }
 .offline-left{
     max-width: 50%;
+    flex: 0 0 50%;           /* Har biri aniq 50% kenglikni egallaydi */
+    height: 400px;
     background: url(../Offline/image/offline_left.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,6 +18,8 @@
 }
 .offline-right{
     max-width: 50%;
+    flex: 0 0 50%;           /* Har biri aniq 50% kenglikni egallaydi */
+    height: 400px;
     background: url(../Offline/image/offline_right.png);
     background-repeat: no-repeat;
     background-size: cover;
