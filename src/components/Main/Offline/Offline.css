@@ -1,25 +1,31 @@
-.offline-wrappers{
-    padding: 60px 0;
-}
+
 .offline-wrapper{
+     padding: 60px 0;
+    position: relative; 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
+    width: 100%;
+}
+.offline-title {
+    position: absolute;
+    top: 20px;        
+    left: 50%;         
+    transform: translateX(-50%);
+    color: white;      
+    z-index: 10;       
 }
 .offline-left{
-    max-width: 50%;
-    flex: 0 0 50%;     
+   flex: 1;           
     height: 400px;
+    position: relative;
     background: url(../Offline/image/offline_left.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .offline-right{
-    max-width: 50%;
-    flex: 0 0 50%;        
+    flex: 1;           
     height: 400px;
+    position: relative;
     background: url(../Offline/image/offline_right.png);
     background-repeat: no-repeat;
     background-size: cover;
