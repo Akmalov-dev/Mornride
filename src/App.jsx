@@ -13,6 +13,7 @@ function App() {
      <header>
          <Header/>
      </header>
+     <Offline/>
     </>
   )
 }
