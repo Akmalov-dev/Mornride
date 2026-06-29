@@ -9,7 +9,7 @@
 }
 .offline-left{
     max-width: 50%;
-    flex: 0 0 50%;           /* Har biri aniq 50% kenglikni egallaydi */
+    flex: 0 0 50%;     
     height: 400px;
     background: url(../Offline/image/offline_left.png);
     background-repeat: no-repeat;
