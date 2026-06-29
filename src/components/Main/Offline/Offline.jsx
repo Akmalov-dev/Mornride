@@ -3,7 +3,11 @@ import React from 'react'
 
 function Offline() {
   return (
-    <div>Offline</div>
+    <>
+    <section className="offline">
+        
+    </section>
+    </>
   )
 }
 
