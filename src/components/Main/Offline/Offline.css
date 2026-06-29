@@ -6,3 +6,7 @@
     align-items: center;
     justify-content: space-between;
 }
+.offline-left{
+    max-width: 50%;
+    background: url(../Offline/image/offline_left.png);
+}
