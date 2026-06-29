@@ -13,7 +13,7 @@ function Offline() {
                   <p className="offline-text">Monride store - 1901 York Street, Cir shiloh, India 560018</p>
                 </div>
                 <div className="offline-right">
-                    <p className="offline-text"></p>
+                    <p className="offline-text">Monride store - 2464 Royal Mesa , New Jersey, China 172829</p>
                 </div>
                  </div>
             </div>
