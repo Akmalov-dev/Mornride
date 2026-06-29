@@ -1,0 +1,17 @@
+.img-ptofile{
+    width: 100px;
+}
+.img-korzinka{
+    width: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header-middle{
+    display: flex;
+    gap: 30px;
+}
+.header-right{
+    display: flex;
+}
