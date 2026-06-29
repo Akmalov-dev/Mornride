@@ -8,10 +8,10 @@ function Offline() {
         <div className="container">
             <div className="offline-wrappers">
                 <div className="offline-wrapper">
-                    <h2 className="offline-left">Our offline stores</h2>
+                    <h2 className="offline-title">Our offline stores</h2>
             
                 <div className="offline-left">
-
+      
                 </div>
                  </div>
             </div>
