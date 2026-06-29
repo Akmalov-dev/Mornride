@@ -1,6 +1,6 @@
 import "./Offline.css";
 import React from 'react'
-import offline-left from
+import offline_left from
 
 function Offline() {
   return (
