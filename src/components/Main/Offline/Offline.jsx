@@ -8,7 +8,7 @@ function Offline() {
         <div className="container">
             <div className="offline-wrappers">
                 <div className="offline-wrapper">
-                    <h2>Our offline stores</h2>
+                    <h2 className="">Our offline stores</h2>
             
                 <div className="offline-left">
 
