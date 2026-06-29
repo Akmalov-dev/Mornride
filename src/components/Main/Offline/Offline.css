@@ -1,3 +1,7 @@
 .offline-wrappers{
     padding: 60px 0;
 }
+.offline-wrapper{
+    display: flex;
+    align-items: center;
+}
