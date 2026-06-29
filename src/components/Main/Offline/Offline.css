@@ -15,7 +15,7 @@
 }
 .offline-right{
     max-width: 50%;
-    background: url();
+    background: url(../Offline/image/offline_right.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
