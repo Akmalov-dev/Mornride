@@ -7,7 +7,12 @@ function Offline() {
     <section className="offline">
         <div className="container">
             <div className="offline-wrapper">
-                <div className="offline-left"></div>
+                <div className="offline-wrapper">
+                    <h2>Our offline stores</h2>
+                </div>
+                <div className="offline-left">
+
+                </div>
             </div>
         </div>
     </section>
