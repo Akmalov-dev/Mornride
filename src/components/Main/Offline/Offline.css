@@ -9,4 +9,5 @@
 .offline-left{
     max-width: 50%;
     background: url(../Offline/image/offline_left.png);
+    background-repeat: no-repeat;
 }
