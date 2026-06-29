@@ -7,7 +7,7 @@ function Offline() {
     <section className="offline">
         <div className="container">
             <div className="offline-wrapper">
-                
+                <div className="offline-left"></div>
             </div>
         </div>
     </section>
