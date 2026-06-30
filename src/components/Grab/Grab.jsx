@@ -1,6 +1,6 @@
 import "./Grab.css";
 import React from 'react'
-
+import grab from "./image/grab.png";
 function Grab() {
   return (
     <>
