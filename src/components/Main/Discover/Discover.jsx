@@ -1,6 +1,6 @@
 import React from 'react';
 import './Discover.css';  
-import backgroundImage from '';  
+import backgroundImage from '../../Main/Discover/';  
 
 const HeroBanner = () => {
   return (
