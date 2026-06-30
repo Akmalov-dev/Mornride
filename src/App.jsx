@@ -6,6 +6,7 @@ import Offline from './components/Main/Offline/Offline';
 
 import Header from '../src/components/Header/header'
 import Timmeles from './components/Main/Timmeles/Timmeles';
+import Discover from './components/Main/Discover/Discover'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
      <main>
     <Timmeles/>
      <Offline/>
+     <Discover/>
      </main>
     </>
   )
