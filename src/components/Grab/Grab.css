@@ -38,3 +38,50 @@
     width: 100%;
   
 }
+/* --- RESPONSIVE O'ZGARISHLAR --- */
+
+/* Planshetlar uchun (1024px dan kichik) */
+@media (max-width: 1024px) {
+    .grab-left {
+        max-width: 50%;
+    }
+    .grab-text {
+        width: 100%;
+        font-size: 48px; /* Matnni biroz kichraytiramiz */
+    }
+}
+
+/* Kichik planshet va katta telefonlar uchun (768px dan kichik) */
+@media (max-width: 768px) {
+    .grab-wrapper {
+        flex-direction: column; /* Matn va rasmni ustma-ust qo'yadi */
+        text-align: center;
+        padding-top: 40px;
+    }
+    .grab-left {
+        max-width: 90%;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .grab-text {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .grab-right {
+        max-width: 80%; /* Rasm telefonda juda katta bo'lmasligi uchun */
+    }
+}
+
+/* Telefonlar uchun (480px dan kichik) */
+@media (max-width: 480px) {
+    .grab-text {
+        font-size: 32px; /* Juda kichik ekranlar uchun */
+    }
+    .grab-btn {
+        width: 100%; /* Tugma telefon ekranida to'liq bo'lishi qulayroq */
+        font-size: 18px;
+    }
+    .grab-right {
+        max-width: 100%;
+    }
+}
