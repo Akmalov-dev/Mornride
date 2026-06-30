@@ -5,7 +5,13 @@ function Grab() {
   return (
     <>
     <section className="grab">
-        <div className="container"></div>
+        <div className="container">
+            <div className="grap-wrapper">
+                <div className="grab-left">
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
     </section>
     </>
   )
