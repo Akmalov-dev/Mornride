@@ -24,6 +24,8 @@
    border-radius: 30px;
    color: #000000;
    font-weight: 700;
+   font-size: 20px;
+   line-height: 100%;
 }
 .grab-right{
     width: 100%;
