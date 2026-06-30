@@ -18,8 +18,10 @@
     line-height: 100%;
 }
 .grab-right{
-    max-width: 70%;
+    width: 100%;
+    
 }
 .grab-img{
-    max-width: 100%;
+    width: 100%;
+  
 }
