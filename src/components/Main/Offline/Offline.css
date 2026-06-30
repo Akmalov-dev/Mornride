@@ -7,10 +7,10 @@
 }
 .offline-title {
    position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    color: white; 
+    color: #FFFFFF; 
     font-size: 48px;
     line-height: 100%;
     z-index: 999; 
@@ -45,10 +45,12 @@
 }
 .offline-text{
     max-width: 490px;
-    color: white;
+    color: #FFFFFF;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 100%;
-
+    position: absolute;
+    top: 35%;
+    left: 15%;
 
 }
