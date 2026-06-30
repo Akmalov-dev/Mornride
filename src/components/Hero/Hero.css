@@ -2,17 +2,17 @@
   background-color: black;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
-/* ===== INNER (har slide) ===== */
 .hero_inner {
   position: relative;
   display: flex;
   align-items: center;
   min-height: 620px;
+  z-index: 1;
 }
 
-/* ===== CONTENT ===== */
 .hero_content {
   max-width: 580px;
   position: relative;
@@ -21,9 +21,9 @@
 
 .hero_badge {
   display: inline-block;
-  padding: 8px 20px;
-  border: 1.5px solid var(--text-w-color);
+  padding: 8px 22px;
   border-radius: 30px;
+  background: linear-gradient(90deg, #6e6e6e, #2c2c2c);
   color: var(--text-w-color);
   font-size: 13px;
   font-weight: 500;
@@ -50,7 +50,6 @@
   max-width: 460px;
 }
 
-/* ===== BUTTONS ===== */
 .hero_btns {
   display: flex;
   align-items: center;
@@ -73,8 +72,9 @@
 }
 
 .hero_btn--main:hover {
-  background-color: transparent;
-  color: var(--text-w-color);
+  background-color: var(--text-w-color);
+  color: var(--text-b-color);
+  opacity: 0.85;
 }
 
 .hero_btn--outline {
@@ -88,7 +88,6 @@
   color: var(--text-b-color);
 }
 
-/* ===== IMAGE (orqa fonda, z-index: -1) ===== */
 .hero_img {
   position: absolute;
   right: -5%;
@@ -100,12 +99,12 @@
   z-index: -1;
 }
 
-/* ===== SLICK DOTS ===== */
 .hero_slider .slick-dots {
   bottom: 30px;
   left: 10%;
   width: auto;
   text-align: left;
+  z-index: 3;
 }
 
 .hero_slider .slick-dots li {
@@ -123,7 +122,6 @@
   color: var(--text-w-color);
 }
 
-/* ===== TABLET (max-width: 1024px) ===== */
 @media (max-width: 1024px) {
   .hero_inner {
     min-height: 560px;
@@ -144,7 +142,6 @@
   }
 }
 
-/* ===== MOBILE (max-width: 768px) ===== */
 @media (max-width: 768px) {
   .hero_inner {
     min-height: 480px;
@@ -192,7 +189,6 @@
   }
 }
 
-/* ===== SMALL MOBILE (max-width: 480px) ===== */
 @media (max-width: 480px) {
   .hero_title {
     font-size: 22px;
