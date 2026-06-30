@@ -5,6 +5,7 @@ import './App.css';
 import Offline from './components/Main/Offline/Offline';
 
 import Header from '../src/components/Header/header'
+import Timmeles from './components/Main/Timmeles/Timmeles';
 
 function App() {
 
@@ -13,7 +14,10 @@ function App() {
      <header>
          <Header/>
      </header>
+     <main>
+    <Timmeles/>
      <Offline/>
+     </main>
     </>
   )
 }
