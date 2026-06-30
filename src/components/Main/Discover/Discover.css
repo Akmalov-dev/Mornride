@@ -1,16 +1,13 @@
-/* HeroBanner.css */
-
-/* Контейнер для центрирования всего компонента */
-.hero-banner-container {
-  font-family: Arial, sans-serif; /* Можно изменить шрифт на желаемый */
-  padding: 20px; /* Отступы вокруг всего блока */
+ 
+ .hero-banner-container {
+  font-family: Arial, sans-serif;  
+  padding: 20px;  
   display: flex;
   flex-direction: column;
-  align-items: center; /* Центрирование кнопки */
+  align-items: center;  
 }
 
-/* Стили для секции баннера */
-.hero-banner {
+ .hero-banner {
   background-size: cover;
   background-position: center;
   width: 100%;
