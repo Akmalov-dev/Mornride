@@ -20,7 +20,8 @@
 .grab-btn{
     padding: 14px 24px;
     background: #FFFFFF;
-
+   border-radius: 30px;
+   color: #000000;
 }
 .grab-right{
     width: 100%;
