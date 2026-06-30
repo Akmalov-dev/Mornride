@@ -60,9 +60,29 @@
     .offline-text { font-size: 20px; }
 }
 
-/* Mobil telefonlar uchun */
+/* Mobil qurilmalar uchun (telefonda) */
 @media (max-width: 480px) {
-    .offline-wrapper { flex-direction: column; } /* Rasmlarni bir-birining tagiga qo'yadi */
-    .offline-left, .offline-right { height: 300px; }
-    .offline-title { font-size: 28px; }
+    .offline-wrapper { 
+        flex-direction: column; 
+    } 
+    
+    .offline-title { 
+        font-size: 25px; 
+        margin-bottom: 20px; /* Sarlavha bilan rasmlar orasida bo'shliq */
+        padding-top: -10px;
+    }
+    
+    .offline-left, .offline-right { 
+        height: auto; 
+        padding: 15px; 
+    }
+    
+    .offline-text { 
+        font-size: 13px; 
+        line-height: 1.3;
+        padding-top: 34px;
+        text-align: center;
+        width: 100%; /* Matn konteynerdan chiqib ketmasligi uchun */
+        position: static; /* Absolute pozitsiyani butunlay o'chiramiz */
+    }
 }
