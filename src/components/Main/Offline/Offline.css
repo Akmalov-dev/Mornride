@@ -1,17 +1,21 @@
 
 .offline-wrapper{
-     padding: 60px 0;
+   
     position: relative; 
     display: flex;
     width: 100%;
 }
 .offline-title {
-    position: absolute;
-    top: 20px;        
-    left: 50%;         
+   position: absolute;
+    top: 20px;
+    left: 50%;
     transform: translateX(-50%);
-    color: white;      
-    z-index: 10;       
+    color: white; 
+    font-size: 48px;
+    line-height: 100%;
+    z-index: 999; 
+    text-align: center;
+    width: 100%; 
 }
 .offline-left{
    flex: 1;           
@@ -30,4 +34,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.offline-text{
+    width: 490px;
+    color: white;
+    font-weight: 400;
+    font-size: 32pz;
+    line-height: 100%;
+    z-index: 999;
+
 }
