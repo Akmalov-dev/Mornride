@@ -1,0 +1,97 @@
+/* HeroBanner.css */
+
+/* Контейнер для центрирования всего компонента */
+.hero-banner-container {
+  font-family: Arial, sans-serif; /* Можно изменить шрифт на желаемый */
+  padding: 20px; /* Отступы вокруг всего блока */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование кнопки */
+}
+
+/* Стили для секции баннера */
+.hero-banner {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 1200px; /* Ограничение ширины баннера */
+  border-radius: 20px; /* Скругление углов */
+  aspect-ratio: 16 / 9; /* Соотношение сторон, можно настроить под изображение */
+  position: relative; /* Для позиционирования содержимого поверх изображения */
+  margin-bottom: 20px; /* Отступ до кнопки */
+  overflow: hidden; /* Скрытие лишних частей изображения при скруглении углов */
+}
+
+/* Перекрытие для улучшения читаемости текста поверх изображения */
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Полупрозрачное темное перекрытие */
+  z-index: 1; /* Позиционирование над изображением */
+}
+
+/* Стили для содержимого внутри баннера */
+.hero-content {
+  position: relative;
+  z-index: 2; /* Позиционирование над перекрытием */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Выравнивание текста по нижнему краю */
+  align-items: flex-start; /* Выравнивание текста по левому краю */
+  color: white; /* Белый цвет текста */
+  padding: 40px; /* Отступы внутри баннера */
+}
+
+/* Стили для заголовка */
+.hero-headline {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Стили для подзаголовка "The testing lab" */
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: lowercase; /* Преобразование в нижний регистр, как на изображении */
+  margin-bottom: 10px; /* Отступ до основного текста */
+}
+
+/* Стили для основного текста "Discover a behind-the-scenes look..." */
+.hero-main-text {
+  font-size: 2.5rem; /* Размер шрифта основного текста */
+  font-weight: bold;
+  line-height: 1.2; /* Межстрочный интервал */
+  max-width: 80%; /* Ограничение ширины текста */
+}
+
+/* Стили для кнопки действия (CTA) */
+.hero-action {
+  margin-top: auto; /* Push button to the bottom if content grows */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  width: 100%; /* Take full width to center effectively */
+  padding-bottom: 20px; /* Extra padding at the bottom */
+}
+
+.cta-button {
+  background-color: transparent; /* Прозрачный фон кнопки */
+  border: 2px solid white; /* Белая рамка вокруг кнопки */
+  color: white; /* Белый цвет текста кнопки */
+  padding: 15px 30px; /* Отступы внутри кнопки */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px; /* Скругление углов кнопки */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Эффект перехода */
+}
+
+ .cta-button:hover {
+  background-color: white; /* Белый фон при наведении */
+  color: black; /* Черный текст при наведении */
+}
