@@ -36,7 +36,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Pushes text to the bottom */
+    justify-content: flex-end; 
     padding: 20px;
     background: url(../Offline/image/offline_right.png);
     background-repeat: no-repeat;
@@ -60,7 +60,6 @@
     .offline-text { font-size: 20px; }
 }
 
-/* Mobil qurilmalar uchun (telefonda) */
 @media (max-width: 480px) {
     .offline-wrapper { 
         flex-direction: column; 
