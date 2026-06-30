@@ -48,9 +48,21 @@
     color: #FFFFFF;
     font-weight: 400;
     font-size: 28px;
-    line-height: 100%;
+    line-height: 1.2;
     position: absolute;
     top: 35%;
     left: 15%;
 
+}
+@media (max-width: 768px) {
+    .offline-title { font-size: 36px; }
+    .offline-left, .offline-right { height: 350px; }
+    .offline-text { font-size: 20px; }
+}
+
+/* Mobil telefonlar uchun */
+@media (max-width: 480px) {
+    .offline-wrapper { flex-direction: column; } /* Rasmlarni bir-birining tagiga qo'yadi */
+    .offline-left, .offline-right { height: 300px; }
+    .offline-title { font-size: 28px; }
 }
