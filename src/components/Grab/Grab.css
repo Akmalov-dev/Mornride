@@ -18,7 +18,9 @@
     line-height: 100%;
 }
 .grab-btn{
-    
+    padding: 14px 24px;
+    background: #FFFFFF;
+
 }
 .grab-right{
     width: 100%;
