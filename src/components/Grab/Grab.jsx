@@ -3,7 +3,11 @@ import React from 'react'
 
 function Grab() {
   return (
-    <div>Grab</div>
+    <>
+    <section className="grab">
+        <div className="container"></div>
+    </section>
+    </>
   )
 }
 
