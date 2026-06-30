@@ -14,48 +14,44 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  max-width: 1200px; /* Ограничение ширины баннера */
-  border-radius: 20px; /* Скругление углов */
-  aspect-ratio: 16 / 9; /* Соотношение сторон, можно настроить под изображение */
-  position: relative; /* Для позиционирования содержимого поверх изображения */
-  margin-bottom: 20px; /* Отступ до кнопки */
-  overflow: hidden; /* Скрытие лишних частей изображения при скруглении углов */
+  max-width: 1200px;  
+  border-radius: 20px;  
+  aspect-ratio: 16 / 9; 
+  position: relative; 
+  margin-bottom: 20px; 
+  overflow: hidden;  
 }
 
-/* Перекрытие для улучшения читаемости текста поверх изображения */
-.hero-banner::after {
+ .hero-banner::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Полупрозрачное темное перекрытие */
-  z-index: 1; /* Позиционирование над изображением */
+  background: rgba(0, 0, 0, 0.4);  
+  z-index: 1;  
 }
 
-/* Стили для содержимого внутри баннера */
-.hero-content {
+ .hero-content {
   position: relative;
-  z-index: 2; /* Позиционирование над перекрытием */
+  z-index: 2; 
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Выравнивание текста по нижнему краю */
-  align-items: flex-start; /* Выравнивание текста по левому краю */
-  color: white; /* Белый цвет текста */
-  padding: 40px; /* Отступы внутри баннера */
+  justify-content: flex-end; 
+  align-items: flex-start;  
+  color: white;  
+  padding: 40px;  
 }
 
-/* Стили для заголовка */
-.hero-headline {
+ .hero-headline {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
-/* Стили для подзаголовка "The testing lab" */
-.hero-subtitle {
+ .hero-subtitle {
   font-size: 1.2rem;
   font-weight: normal;
   text-transform: lowercase;  
