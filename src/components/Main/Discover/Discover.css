@@ -58,25 +58,23 @@
 .hero-subtitle {
   font-size: 1.2rem;
   font-weight: normal;
-  text-transform: lowercase; /* Преобразование в нижний регистр, как на изображении */
-  margin-bottom: 10px; /* Отступ до основного текста */
+  text-transform: lowercase;  
+  margin-bottom: 10px;  
 }
 
-/* Стили для основного текста "Discover a behind-the-scenes look..." */
-.hero-main-text {
-  font-size: 2.5rem; /* Размер шрифта основного текста */
+ .hero-main-text {
+  font-size: 2.5rem;  
   font-weight: bold;
-  line-height: 1.2; /* Межстрочный интервал */
-  max-width: 80%; /* Ограничение ширины текста */
+  line-height: 1.2;  
+  max-width: 80%;  
 }
 
-/* Стили для кнопки действия (CTA) */
-.hero-action {
-  margin-top: auto; /* Push button to the bottom if content grows */
+ .hero-action {
+  margin-top: auto; 
   display: flex;
-  justify-content: center; /* Center horizontally */
-  width: 100%; /* Take full width to center effectively */
-  padding-bottom: 20px; /* Extra padding at the bottom */
+  justify-content: center;  
+  width: 100%;  
+  padding-bottom: 20px;  
 }
 
 .cta-button {
