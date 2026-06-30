@@ -68,18 +68,20 @@
         margin-bottom: 20px;
     }
     .grab-right {
-        max-width: 80%; /* Rasm telefonda juda katta bo'lmasligi uchun */
+        max-width: 100%; 
+    }
+    .grab-img{
+        max-width: 60%;
     }
 }
-
-/* Telefonlar uchun (480px dan kichik) */
 @media (max-width: 480px) {
     .grab-text {
-        font-size: 32px; /* Juda kichik ekranlar uchun */
+        max-width: 100%;
+        font-size: 28px; 
     }
     .grab-btn {
-        width: 100%; /* Tugma telefon ekranida to'liq bo'lishi qulayroq */
-        font-size: 18px;
+        width: 100%; 
+        font-size: 15px;
     }
     .grab-right {
         max-width: 100%;
