@@ -11,6 +11,9 @@ function Grab() {
                     <p className="grab-text">Grab exciting deals and special promos today, Don’t miss out!</p>
                     <button className="grab-btn">Grab now S12 Blue</button>
                 </div>
+                <div className="grab-right">
+                    <img src={} alt="rasm" />
+                </div>
             </div>
         </div>
     </section>
