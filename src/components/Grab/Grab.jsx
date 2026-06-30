@@ -6,13 +6,13 @@ function Grab() {
     <>
     <section className="grab">
         <div className="container">
-            <div className="grap-wrapper">
+            <div className="grab-wrapper">
                 <div className="grab-left">
                     <p className="grab-text">Grab exciting deals and special promos today, Don’t miss out!</p>
                     <button className="grab-btn">Grab now S12 Blue</button>
                 </div>
                 <div className="grab-right">
-                    <img src={} alt="rasm" />
+                    <img className="grab-img" src={grab} alt="rasm" />
                 </div>
             </div>
         </div>

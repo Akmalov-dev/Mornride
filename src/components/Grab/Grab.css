@@ -1,0 +1,25 @@
+.grab-wrapper{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    position: relative;
+}
+.grab-left{
+    max-width: 60%;
+    padding-left: 40px;
+}
+.grab-text{
+    width: 782px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 64PX;
+    line-height: 100%;
+}
+.grab-right{
+    max-width: 70%;
+}
+.grab-img{
+    max-width: 100%;
+}
