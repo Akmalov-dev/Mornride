@@ -9,7 +9,7 @@ function Grab() {
             <div className="grap-wrapper">
                 <div className="grab-left">
                     <p className="grab-text">Grab exciting deals and special promos today, Don’t miss out!</p>
-                    <button className="grab-btn"></button>
+                    <button className="grab-btn">Grab now S12 Blue</button>
                 </div>
             </div>
         </div>
