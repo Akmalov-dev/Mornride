@@ -9,7 +9,7 @@ const header = () => {
     <>
      <div className='header'>
       <div className='header-left'>
-        <p>MORNRIDE</p>
+        <p className='logo'>MORNRIDE</p>
       </div>
       <div className='header-middle'>
         <a href="">Categories</a>
@@ -18,9 +18,9 @@ const header = () => {
         <a href="">Delivery</a> 
       </div>
       <div className='header-right'>
-        <input type="text" placeholder='Search Product..'/>
-        <img className='img-korzinka' src={korzinka} alt="" />
-        <img className='img-profile' src={profile} alt="" />
+        <input className='search' type="text" placeholder='    Search Product . .'/>
+        <img className='img-korzinka' src={korzinka} alt="korzinka" />
+        <img className='img-profile' src={profile} alt="profile picture" />
       </div>
      </div>
     </>

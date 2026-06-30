@@ -1,19 +1,20 @@
 
 .offline-wrapper{
-   
-    position: relative; 
-    display: flex;
+   display: flex;
+    flex-direction: column; /* Sarlavhani ustiga, rasmlarni tagiga qo'yadi */
     width: 100%;
+  margin-bottom: 100px;
 }
 .offline-title {
-   position: absolute;
-    top: 20px;
+   position: static;
+   margin: 20px 0;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     color: white; 
     font-size: 48px;
     line-height: 100%;
-    z-index: 999; 
+    z-index: 10; 
     text-align: center;
     width: 100%; 
 }
@@ -21,6 +22,10 @@
    flex: 1;           
     height: 400px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes text to the bottom */
+    padding: 20px;
     background: url(../Offline/image/offline_left.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,6 +35,10 @@
     flex: 1;           
     height: 400px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Pushes text to the bottom */
+    padding: 20px;
     background: url(../Offline/image/offline_right.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,6 +50,6 @@
     font-weight: 400;
     font-size: 32pz;
     line-height: 100%;
-    z-index: 999;
+
 
 }
