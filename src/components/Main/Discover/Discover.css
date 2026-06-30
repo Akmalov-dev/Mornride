@@ -80,18 +80,18 @@
 }
 
 .cta-button {
-  background-color: transparent; /* Прозрачный фон кнопки */
-  border: 2px solid white; /* Белая рамка вокруг кнопки */
-  color: white; /* Белый цвет текста кнопки */
-  padding: 15px 30px; /* Отступы внутри кнопки */
+  background-color: transparent;  
+  border: 2px solid white;  
+  color: white;  
+  padding: 15px 30px;  
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 5px; /* Скругление углов кнопки */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Эффект перехода */
+  border-radius: 5px;  
+  transition: background-color 0.3s ease, color 0.3s ease;  
 }
 
  .cta-button:hover {
-  background-color: white; /* Белый фон при наведении */
-  color: black; /* Черный текст при наведении */
+  background-color: white; 
+  color: black;  
 }
