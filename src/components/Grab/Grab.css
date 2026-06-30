@@ -26,6 +26,9 @@
    font-weight: 700;
    font-size: 20px;
    line-height: 100%;
+   &:hover{
+    transform: scale(1.1);
+   }
 }
 .grab-right{
     max-width: 100%;
