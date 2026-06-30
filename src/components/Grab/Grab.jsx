@@ -8,7 +8,8 @@ function Grab() {
         <div className="container">
             <div className="grap-wrapper">
                 <div className="grab-left">
-                    <h2></h2>
+                    <p className="grab-text">Grab exciting deals and special promos today, Don’t miss out!</p>
+
                 </div>
             </div>
         </div>
