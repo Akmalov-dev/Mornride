@@ -26,8 +26,12 @@
    font-weight: 700;
    font-size: 20px;
    line-height: 100%;
+   cursor: pointer;
    &:hover{
-    transform: scale(1.1);
+    background-color: transparent;
+    color: var(--text-w-color);
+    border: 1.5px solid var(--text-w-color);
+
    }
 }
 .grab-right{
