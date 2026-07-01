@@ -27,6 +27,8 @@
    font-size: 20px;
    line-height: 100%;
    cursor: pointer;
+   border: 1.5px solid transparent; 
+   transition: all 0.3s ease; 
    &:hover{
     background-color: transparent;
     color: var(--text-w-color);
