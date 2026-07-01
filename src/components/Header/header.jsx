@@ -21,7 +21,7 @@ const header = () => {
         <input className='search' type="text" placeholder='    Search Product . .'/>
         <img className='img-korzinka' src={korzinka} alt="korzinka" />
         <img className='img-profile' src={profile} alt="profile picture" />
-      </div>
+      </div>  
      </div>
     </>
   )

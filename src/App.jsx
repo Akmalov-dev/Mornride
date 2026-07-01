@@ -9,12 +9,18 @@ import Timmeles from './components/Main/Timmeles/Timmeles';
 import Discover from './components/Main/Discover/Discover'
 import Offline from './components/Main/Offline/Offline';
 import Grab from './components/Grab/Grab';
+
+
+import Footer from "./components/Footer/footer"
+import Hero from './components/Hero/Hero';
+
 function App() {
 
   return (
     <>
      <header>
          <Header/>
+          <Hero/>
      </header>
      <main>
     <Timmeles/>
@@ -23,6 +29,7 @@ function App() {
      <Offline/>
      <Grab/>
      </main>
+     <Footer/>
     </>
   )
 }

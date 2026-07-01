@@ -5,10 +5,10 @@ a{
     font-weight: lighter;
 }
 a:hover{
-    color: rgb(128, 0, 129);
+    color: rgb(148, 0, 148);
 }
 .img-profile{
-    width: 45px;
+    width: 40px;
     border-radius: 50%;
 }
 .img-korzinka{
@@ -20,6 +20,9 @@ a:hover{
     justify-content: space-around;
     margin-top: 20px;
     margin-left: 40px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .header-middle{
     display: flex;
