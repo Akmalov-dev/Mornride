@@ -38,23 +38,19 @@
     width: 100%;
   
 }
-/* --- RESPONSIVE O'ZGARISHLAR --- */
 
-/* Planshetlar uchun (1024px dan kichik) */
 @media (max-width: 1024px) {
     .grab-left {
         max-width: 50%;
     }
     .grab-text {
         width: 100%;
-        font-size: 48px; /* Matnni biroz kichraytiramiz */
+        font-size: 48px; 
     }
 }
-
-/* Kichik planshet va katta telefonlar uchun (768px dan kichik) */
 @media (max-width: 768px) {
     .grab-wrapper {
-        flex-direction: column; /* Matn va rasmni ustma-ust qo'yadi */
+        flex-direction: column;
         text-align: center;
         padding-top: 40px;
     }
